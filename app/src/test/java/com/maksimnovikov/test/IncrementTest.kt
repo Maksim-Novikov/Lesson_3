@@ -11,4 +11,11 @@ class IncrementTest {
         i += 1
         assertEquals(2, i)
     }
+
+
+    @Test
+    fun divideTest() {
+        assertEquals(2, 4 / 2)
+    }
+
 }
